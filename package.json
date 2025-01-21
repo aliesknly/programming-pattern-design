@@ -1,4 +1,11 @@
 {
   "name": "POO",
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
 }
